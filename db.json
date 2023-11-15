@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "New",
+    "content": "Lorem ipsum ipsum lorem",
+    "createdAt": "2023-11-09T13:41:58.081608",
+    "updatedAt": null,
+    "deletedAt": null,
+    "userId": 1,
+    "comments": [
+      {
+        "id": 1,
+        "comments": "new comment",
+        "createdAt": "2023-11-09T13:42:06.912532",
+        "updatedAt": null,
+        "user": null,
+        "post": null,
+        "isDeleted": false,
+        "deletedAt": null,
+        "userId": 1,
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "comments": "another comment",
+        "createdAt": "2023-11-09T13:46:05.405135",
+        "updatedAt": null,
+        "user": null,
+        "post": null,
+        "isDeleted": false,
+        "deletedAt": null,
+        "userId": 1,
+        "postId": 1
+      }
+    ],
+    "user": {
+      "id": 1,
+      "username": "victor254",
+      "firstName": "Victor",
+      "lastName": "Mwenda",
+      "email": "vmwenda@gmail.com"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Another comment",
+    "content": "Lorem ipsum ipsum lorem",
+    "createdAt": "2023-11-09T13:46:55.682294",
+    "updatedAt": null,
+    "deletedAt": null,
+    "userId": 1,
+    "comments": [
+      {
+        "id": 3,
+        "comments": "another comment",
+        "createdAt": "2023-11-09T13:47:09.943484",
+        "updatedAt": null,
+        "user": null,
+        "post": null,
+        "isDeleted": false,
+        "deletedAt": null,
+        "userId": 1,
+        "postId": 2
+      }
+    ],
+    "user": {
+      "id": 1,
+      "username": "victor254",
+      "firstName": "Victor",
+      "lastName": "Mwenda",
+      "email": "vmwenda@gmail.com"
+    }
+  }
+]
